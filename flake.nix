@@ -28,6 +28,7 @@
             pyright
             (python312.withPackages (pypkgs: [
               pypkgs.django
+              pypkgs.gunicorn
             ]))
             poetry            
           ];
