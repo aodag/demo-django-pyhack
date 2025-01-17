@@ -4,7 +4,7 @@ from django.db import models
 class PyhackEvent(models.Model):
     name = models.CharField(max_length=255)
     description = models.CharField(max_length=255)
-    hold_dateime = models.DateTimeField()
+    hold_datetime = models.DateTimeField()
 
 
 class PyhackParticipant(models.Model):

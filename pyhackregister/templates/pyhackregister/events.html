@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <body>
+    <h1>Events</h1>
+    <ul>
+      {% for event in events %}
+      <li><a href="{{ event.id }}">{{ event.name }}{{ event.hold_datetime }}</a></li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
